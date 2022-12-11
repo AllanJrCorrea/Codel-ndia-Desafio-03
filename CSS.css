@@ -61,3 +61,74 @@
     height: 350px;
 }
 
+.parte2 {
+    height: 100%;
+    display: flex;
+    align-items: center;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.parte2-card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#caixa-cor {
+    width: 340px;
+    height: 222px;
+}
+
+.red {
+    background-color: #FF6363;
+}
+
+.azul-claro {
+    background-color: #63ECFF;
+}
+
+.roxo {
+    background-color: #F363FF;
+}
+
+.verde {
+    background-color: #63FF73;
+}
+
+.laranja {
+    background-color: #FFDD63;
+}
+
+.azul {
+    background-color: #6663FF;
+}
+
+.texto-card h4 {
+    width: 282px;
+    height: 30px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2B2B2B;
+    text-align: center;
+    
+}
+
+.texto-card p {
+    width: 282px;
+    height: 90px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    text-align: center;
+}
+
+.parte3 {
+    height: 750px;
+    width: 100%;
+    background-color: #D7D4FF;
+}
