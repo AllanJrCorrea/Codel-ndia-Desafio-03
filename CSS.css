@@ -47,7 +47,13 @@
     font-weight: 700;
     font-size: 20px;
     margin-top: 45px;
+    cursor: pointer;
+}
 
+.parte1-LadoEsquerdo button:hover {
+    background-color: #FFFFFF;
+    color: #6C63FF;
+    transition: background-color .7s;
 }
 
 .parte1-LadoDireito img {
