@@ -39,22 +39,25 @@
 .parte1-LadoEsquerdo button {
     width: 155px;
     height: 50px;
-    border: none;
+    margin-top: 20px;
     border-radius: 5px;
-    background-color: #6C63FF;
-    color: #FFFFFF;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 45px;
     cursor: pointer;
+
+    border-color: #6C63FF;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #6C63FF inset, 0 0 0 0 #6C63FF;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .parte1-LadoEsquerdo button:hover {
-    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 0 #6C63FF inset, 0 0 10px 4px #6C63FF;
     color: #6C63FF;
-    transition: background-color .7s;
 }
+
 
 .parte1-LadoDireito img {
     width: 350px;
@@ -71,8 +74,7 @@
 }
 
 .parte2-card {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 #caixa-cor {
@@ -131,6 +133,7 @@
     height: 750px;
     width: 100%;
     background-color: #D7D4FF;
+    margin-top: 50px;
 }
 
 .parte3-form {
@@ -176,20 +179,6 @@
     color: #6E7275BD;
     padding: 15px;
 }
-
-/* .botao-enviar {
-    width: 471px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #6C63FF;
-    font-family: Lato, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
-} */
 
 .botao-enviar {
     width: 471px;
