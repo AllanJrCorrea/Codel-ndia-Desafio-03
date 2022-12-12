@@ -177,7 +177,7 @@
     padding: 15px;
 }
 
-.botao-enviar {
+/* .botao-enviar {
     width: 471px;
     height: 50px;
     border-radius: 5px;
@@ -189,4 +189,26 @@
     border: none;
     margin-top: 20px;
     cursor: pointer;
+} */
+
+.botao-enviar {
+    width: 471px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+
+    border-color: #6C63FF;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #6C63FF inset, 0 0 0 0 #6C63FF;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.botao-enviar:hover {
+    box-shadow: 0 0 10px 0 #6C63FF inset, 0 0 10px 4px #6C63FF;
+    color: #6C63FF;
 }
