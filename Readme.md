@@ -31,7 +31,7 @@ O desafio é construir um site a partir do layout do Figma apresentado, também 
 
 ### O que eu aprendi
 
-Reforcei meus conhecimentos de HTML e CSS e Responsividade.
+Reforcei meus conhecimentos de HTML, CSS e Responsividade.
 
 
 ## Author
